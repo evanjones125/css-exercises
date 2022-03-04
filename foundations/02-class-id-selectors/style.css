@@ -1,0 +1,17 @@
+#blue-large {
+    font-size: 36px;
+    color: blue;
+}
+
+.med-font {
+    font-size: 24px;
+}
+
+.red-background {
+    background-color: pink;
+}
+
+#green {
+    font-weight: bold;
+    background-color: greenyellow;
+}

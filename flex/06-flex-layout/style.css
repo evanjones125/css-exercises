@@ -32,12 +32,37 @@ input {
   justify-content: space-between;
 }
 
-.header ul li,
-.footer ul {
+.header li,
+.footer li {
   list-style-type: none;
+  text-decoration: none;
+}
+
+.header a,
+.footer a {
+  color: gray;
   text-decoration: none;
 }
 
 .footer {
   background-color: #eeeeee;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 16px;
+  padding: 0 16px 0 16px;
+}
+
+.content {
+  padding: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons button {
+  padding: 6px;
 }

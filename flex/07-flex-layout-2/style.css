@@ -4,8 +4,7 @@ body {
   min-height: 100vh;
 
   display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .header {
@@ -30,7 +29,6 @@ body {
 
 .sidebar {
   background: royalblue;
-  /* flex: 2 1 auto; */
   gap: 10px;
 }
 

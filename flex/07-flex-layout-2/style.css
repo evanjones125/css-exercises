@@ -38,6 +38,9 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 12px;
+  flex: 1 1 auto;
+  width: 250px;
 }
 
 .content {
@@ -46,10 +49,10 @@ body {
 }
 
 .cards {
-  flex: 1 1 auto;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  gap: 25px;
+  flex-flow: row wrap;
+  padding: 40px;
 }
 
 .sidebar li,
